@@ -1,0 +1,19 @@
+{
+  "name": "truf-store-ticket-bot",
+  "version": "2.0.0",
+  "description": "بوت تذاكر متكامل - TruF Store",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
