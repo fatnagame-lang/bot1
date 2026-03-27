@@ -7,7 +7,7 @@ module.exports = {
   // ─────────────────────────────────────────
   // 🔑 معلومات البوت الأساسية
   // ─────────────────────────────────────────
-  token:    'MTQ4Njc0NTQ5NDg5NzAzMzMyNw.GU6zsl.pp66JlVOe8lmfSi1R7JSIwdrQkbxdMcd9Lqq7Q',       // توكن البوت من Discord Developer Portal
+       // توكن البوت من Discord Developer Portal
   clientId: '1486745494897033327',       // ID البوت (Application ID)
   guildId:  '1486715427139621106',        // ID السيرفر
 

@@ -17,7 +17,7 @@ const {
   SlashCommandBuilder,
   PermissionsBitField,
 } = require('discord.js');
-
+require('dotenv').config();
 const fs         = require('fs');
 const config     = require('./config');
 const categories = require('./categories');
@@ -904,7 +904,7 @@ client.on('interactionCreate', async (interaction) => {
 // ─────────────────────────────────────────────────────────────
 //  تشغيل البوت
 // ─────────────────────────────────────────────────────────────
-client.login(config.token).catch(err => {
+client.login(process.env.TOKEN).catch(err => {
   console.error('❌ فشل تسجيل الدخول - تحقق من التوكن في config.js');
   console.error(err.message);
   process.exit(1);
